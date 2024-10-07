@@ -8,5 +8,5 @@ WORKDIR /app
 COPY out/ ./
 COPY lib/mysql-connector-j-9.0.0.jar ./lib/
 
-# Specify the command to run your Java application
+# Specify the command to run your Java application []
 CMD ["java", "-cp", ".;lib/mysql-connector-j-9.0.0.jar", "Main"]
